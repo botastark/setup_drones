@@ -48,3 +48,11 @@ rosdep install --from-paths src --ignore-src -y
 catkin build
 source devel/setup.bash
 
+sudo apt install git meson ninja-build pkg-config gcc g++ systemd
+
+https://github.com/mavlink-router/mavlink-router
+gedit .bashrc 
+	add python=/usr/bin/python3.6
+
+
+
