@@ -1,0 +1,24 @@
+Freshly flashed Jetson setup (uvify-ifo-sx)
+
+Flash with NVIDIA MAVSDK w/ following:
+Linux for Tegra (L4T) 32.4.3 - Ubuntu 18.04
+CUDA 10.2
+CuDNN 8.0
+TensorRT 7.1
+OpenCV 4.1.1
+VisionWorks 1.6
+NVIDIA Container runtime 0.9.0
+Multimedia API 32.4
+DeepStream 5.0
+
+Need to install additional software:
+ROS Melodic Desktop (http://wiki.ros.org/melodic/Installation/Ubuntu)
+sudo ./ros_install.sh
+MAVROS
+MAVLink Router
+terminator
+rsync
+htop
+python 3.6 ?
+jetson stats
+
