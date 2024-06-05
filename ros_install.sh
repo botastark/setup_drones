@@ -6,7 +6,7 @@ curl -s https://raw.githubusercontent.com/ros/rosdistro/master/ros.asc | sudo ap
 
 
 sudo apt update
-sudo apt install ros-melodic-desktop
+sudo apt install ros-melodic-desktop -y
 echo "installed ROS melodic"
 echo "verify"
 apt search ros-melodic
